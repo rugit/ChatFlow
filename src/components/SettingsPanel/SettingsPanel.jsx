@@ -5,6 +5,7 @@ import leftArrow from "../../assets/left-arrow.svg";
 const SettingsPanel = (props) => {
   const [text, setText] = useState(props.selectedNode.data.label);
 
+  //function to update the selected node text
   const onChange = (event) => {
     const newText = event.target.value;
     setText(newText);

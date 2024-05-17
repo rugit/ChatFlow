@@ -1,0 +1,41 @@
+.flow-builder {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.flow-builder-header {
+  background-color: #f3f3f3;
+  height: 70px;
+}
+
+.flow-builder-body {
+  display: flex;
+  height: 100%;
+}
+
+.flow-builder-canvas {
+  flex-grow: 1;
+}
+
+.reactflow-wrapper {
+  flex-grow: 1;
+  height: 100%;
+}
+
+.save-button {
+  position: absolute;
+  top: 17px;
+  right: 70px;
+  padding: 8px 20px;
+  background-color: #fff;
+  border: 1px solid #0965ee;
+  color: #0965ee;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.save-button:hover {
+  color: white;
+  background-color: #0056b3;
+}

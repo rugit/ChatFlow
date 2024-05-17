@@ -1,0 +1,14 @@
+.node-panel {
+  padding: 20px;
+}
+
+.node-message {
+  border: 1px solid #0965ee;
+  width: 100px;
+  padding: 10px;
+  margin-bottom: 10px;
+  background: white;
+  cursor: grab;
+  color: #0965ee;
+  text-align: center;
+}

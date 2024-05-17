@@ -1,0 +1,49 @@
+.settings {
+  display: flex;
+  flex-direction: column;
+}
+
+.settings label {
+  margin-bottom: 5px;
+}
+
+.settings input {
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.settings-topbar {
+  display: flex;
+  align-content: center;
+  padding: 25px 20px 5px 20px;
+}
+
+.settings-topbar-header {
+  flex-grow: 1;
+  text-align: center;
+  font-weight: 500;
+}
+
+.settings-topbar-backarrow:hover {
+  cursor: pointer;
+}
+
+.settings {
+  border-top: 1px solid #c2bfbf;
+  padding: 10px 20px 20px 20px;
+  border-bottom: 1px solid #c2bfbf;
+}
+
+.settings-label {
+  color: #c2bfbf;
+  font-weight: 500;
+}
+
+.settings-textarea {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #c2bfbf;
+  max-width: 340px;
+  font-weight: 500;
+}
